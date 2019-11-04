@@ -20,7 +20,7 @@ app.get('/', (req,res) =>{
 //CONNET TO DB
 mongoose.connect(
    // process.env.DB_CONNECTION,
-    'mongodb+srv://gmujica93:6842@cluster0-obquv.mongodb.net/test?retryWrites=true&w=majority',
+   'mongodb+srv://admin:6842@connection-4bnik.mongodb.net/test?retryWrites=true&w=majority',
     { useNewUrlParser: true }, 
     () => console.log('connected to Mongo DB!!! localhost:4000')
 );
