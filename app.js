@@ -19,8 +19,7 @@ app.get('/', (req,res) =>{
 
 //CONNET TO DB
 mongoose.connect(
-   // process.env.DB_CONNECTION,
-   'mongodb+srv://admin:6842@connection-4bnik.mongodb.net/test?retryWrites=true&w=majority',
+   process.env.DB_CONNECTION,
     { 
         useNewUrlParser: true,
         useUnifiedTopology: true 
